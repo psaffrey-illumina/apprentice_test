@@ -10,7 +10,7 @@ This git repository contains a Python script. To complete the task, you need to 
 
 The most obvious way to complete this task is to download the Python script contained within this git repository and execute it. It should produce a single line of output which is the "answer" to this test. An alternative is to try to figure out what the script does and then reproduce the output in another way - this is a less satisfying solution, but is still not "cheating" :)
 
-This task involves interacting with a number of computing technologies including git, Python and the operating system on the computer you are using. Understanding and using technologies like these together is a core skill for a programmer or bioinformatician. You may not have come across all these technologies before or know in detail how to use them - figuring out these new technologies, even if you've never seen them before, is also a core skill for a programmer or bioinformatician. You can search the internet, read online documentation and look around on forums as much as you need - this is what you would be doing if you were trying to figure this out as part of your job. 
+This task involves interacting with a number of computing technologies including git, Python and the operating system on the computer you are using. Understanding and using technologies like these together is a core skill for a programmer or bioinformatician. You may not have come across all these technologies before or know in detail how to use them - figuring out these new technologies, even if you've never seen them before, is also a core skill for a programmer or bioinformatician. If there are technologies you don't understand, where do you think you might find information on how to get these working?
 
 
 ## Hints
