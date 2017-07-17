@@ -17,7 +17,7 @@ This task involves interacting with a number of computing technologies including
 
 These hints apply if you're attempting the "obvious" solution - to download and run the script.
 
-- You will need to download the script from the git repository. There are a number of ways to do this, including downloading an archive, using a git installation on your computer or even downloading just the file.
+- You will need to download the script from the git repository. There are a number of ways to do this, including downloading and unpacking a zip archive, using a git installation on your computer or even downloading just the file.
 
 - You will also need a working Python installation on the computer you're using. Does one exist already? If not, you should be able to download and install one.
 
