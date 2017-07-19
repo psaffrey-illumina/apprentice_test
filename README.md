@@ -29,4 +29,4 @@ These hints apply if you're attempting the "obvious" solution - to download and 
 
 If you manage to complete the main task in the allocated time, you can move on to this section.
 
-The script contained within the git repository has a hard-coded string that it uses as input. Rewrite the script to take a string from the user instead. You can do this using a command line argument (sys.argv), or via a library like argparse or you can use the Python input() function.
+The script contained within the git repository has a hard-coded string that it uses as input. Rewrite the script to take a string from the user instead. You can do this using a command line argument (sys.argv), or via a library like argparse or you can use the Python raw_input() function.
