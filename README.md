@@ -6,7 +6,7 @@ This git repository contains a test for applicants to the Illumina apprenticeshi
 
 - The actual task is outlined below
 - You can use any tools you have on your computer and anything you can find on the internet to help you - this is how you would be working in real life, so this is how you can work in the test!
-- Take as long as you like to complete the task and any extensions, but we would expect you to spend around half an hour. Let us know how long you spent in your submission
+- Please return your answer within 2 days (48 hours) of receiving the test. Within that limit, you can spend as long as you like on the tests but we would expect you to spend around half an hour. Let us know how long you spent in your submission
 - Submit your answer by Email to the person who sent you the test, including any code you write in an attachment
 
 ## Task
