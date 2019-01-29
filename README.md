@@ -1,4 +1,4 @@
-# Illumina EIBU Apprentice Test
+# Illumina Software Developer Apprentice Test
 
 This git repository contains a test for applicants to the Illumina apprenticeship program, focussed on problem solving for computing-based technical roles. 
 
@@ -25,8 +25,20 @@ These hints apply if you're attempting the "obvious" solution - to download and 
 
 ---
 
-## Extension (for extra credit)
+## Extensions (for extra credit)
 
-If you manage to complete the main task in the allocated time, you can move on to this section.
+If you manage to complete the main task in the allocated time, you can move on to this section which provides a number of extensions to improve the script found in this git repository. You can attempt as many of the extensions as you wish in any order.
 
-The script contained within the git repository has a hard-coded string that it uses as input. Rewrite the script to take a string from the user instead. You can do this using a command line argument (sys.argv), or via a library like argparse or you can use the Python raw_input() function.
+### Extension 1: configurable input string
+
+The script has a hard-coded string that it uses as input. Rewrite the script to take a string from the user instead. You can do this using a command line argument ([sys.argv](https://www.pythonforbeginners.com/system/python-sys-argv)), or via a library like [argparse](https://docs.python.org/3/howto/argparse.html) or you can use the Python [raw_input()](https://www.cyberciti.biz/faq/python-raw_input-examples/) function.
+
+- Hint: if you want to combine this extension with the others, better to use the argparse module, which will make it easier to add more options later.
+
+### Extension 2: configurable encoding 
+
+The script only supports one type of encoding for the input string - base64. However, the [underlying Python module](https://docs.python.org/3.7/library/base64.html) supports a number of other encodings, including base16 and base32. Rewrite the script to take a command-line argument `--encoding` which can be one of `base16`, `base32` and `base64`. Then encode and output the string using the chosen encoding.
+
+### Extension 3: optional file output
+
+The script currently prints the result of the encoding to the console. However, it might be useful to allow an (optional) output to a file. Add a command-line argument `--output-file` that allows the user to specify an output file. Then write the result of this encoding into this file instead of the console. Perhaps also provide a friendly error message should it be impossible to create this file.
